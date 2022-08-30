@@ -51,6 +51,8 @@ export function Home(){
 
   const { handleSubmit, watch, reset } = newCycleForm
 
+  function setSecondsPassed(){}
+
   function markCurrentCycleAsFinished(){
     setCycles(prevState=>
       prevState.map(cycle => {
